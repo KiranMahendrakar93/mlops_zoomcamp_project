@@ -1,0 +1,31 @@
+artifact_path: model
+flavors:
+  python_function:
+    env:
+      conda: conda.yaml
+      virtualenv: python_env.yaml
+    loader_module: mlflow.sklearn
+    model_path: model.pkl
+    predict_fn: predict
+    python_version: 3.10.13
+  sklearn:
+    code: null
+    pickled_model: model.pkl
+    serialization_format: cloudpickle
+    sklearn_version: 1.5.1
+mlflow_version: 2.14.1
+model_size_bytes: 150234
+model_uuid: 3834d1e302ab4897a37c35cea5c1d8a6
+run_id: d41515113bce483e85759ee94d6c0b51
+signature:
+  inputs: '[{"type": "long", "name": "Gender", "required": true}, {"type": "long",
+    "name": "Ethnicity", "required": true}, {"type": "long", "name": "ParentalEducation",
+    "required": true}, {"type": "double", "name": "StudyTimeWeekly", "required": true},
+    {"type": "double", "name": "Absences", "required": true}, {"type": "long", "name":
+    "Tutoring", "required": true}, {"type": "long", "name": "ParentalSupport", "required":
+    true}, {"type": "long", "name": "Extracurricular", "required": true}, {"type":
+    "long", "name": "Sports", "required": true}, {"type": "long", "name": "Music",
+    "required": true}, {"type": "long", "name": "Volunteering", "required": true}]'
+  outputs: '[{"type": "tensor", "tensor-spec": {"dtype": "int64", "shape": [-1]}}]'
+  params: null
+utc_time_created: '2024-07-03 16:01:40.612839'
