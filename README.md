@@ -1,6 +1,6 @@
 [![Codespaces Prebuilds](https://github.com/KiranMahendrakar93/mlops_zoomcamp_project/actions/workflows/codespaces/create_codespaces_prebuilds/badge.svg)](https://github.com/KiranMahendrakar93/mlops_zoomcamp_project/actions/workflows/codespaces/create_codespaces_prebuilds)
 
-# student_performance_Gradeclass_prediction
+# Student Performance GradeClass Prediction
 
 ## Objective
 Given the details of students' demographics, study habits, parental involvement, extracurricular activities, and academic performance, predict the grade-class.
