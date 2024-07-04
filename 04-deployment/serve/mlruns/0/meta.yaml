@@ -1,0 +1,6 @@
+artifact_location: file:///workspaces/mlops_zoomcamp_project/04-deployment/serve/mlruns/0
+creation_time: 1720074512087
+experiment_id: '0'
+last_update_time: 1720074512087
+lifecycle_stage: active
+name: Default
